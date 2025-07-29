@@ -1,5 +1,4 @@
 {
-    "buildCommand": "composer install && php artisan config:cache",
     "outputDirectory": "public",
     "routes": [{ "src": "/(.*)", "dest": "/api/index.php" }]
 }
